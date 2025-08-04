@@ -1,0 +1,27 @@
+body {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.grid-container {
+     display: grid; /* display property is set to grid or inline-grid. */
+    /* grid-template-columns: auto auto auto auto auto auto;*/
+    grid-template-areas: 'myArea myArea myArea myArea';
+     column-gap: 10px;
+     row-gap: 15px;
+     background-color: #2196F3;
+     padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.item1 {
+    grid-area: myArea;
+}
+
